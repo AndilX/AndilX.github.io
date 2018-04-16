@@ -3,21 +3,70 @@
             <meta charset="ISO-8859-1">
             <link href="css/style.css" rel="stylesheet" type="text/css" />
         <title>About me</title>
+
+        <style>
+                table {
+                    font-family: arial, sans-serif;
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+                
+                td, th {
+                    border: 1px solid #dddddd;
+                    text-align: left;
+                    padding: 8px;
+                }
+                
+                tr:nth-child(even) {
+                    background-color: #dddddd;
+                }
+        </style>
+
     </head>
     <body>
 
         <img alt="Extra"
         src="image3.jpg"
-        width="150px" height="150px"/>
+        class="centre"
+        width="250px" height="250px"/>
 
         <div>
-            Introduction  
+            <h1 style="font-size: 30px"> Introduction </h1>
+            <p style="font-size: 20px"> This is the intro paragraph</p>
         </div>
         <div>
-            Past achievements 
+            <h1 style="font-size: 30px"> Past achievement </h1>
+            <p style="font-size: 20px"> This is the past achievments paragraph</p>
         </div>
         <div>
-            A table of programming languages
+            <h2> A table of programming languages </h2>
+            <table>
+                    <tr>
+                      <th>Language</th>
+                      <th>Proficiency</th>
+                      <th>Applied for</th>
+                    </tr>
+                    <tr>
+                      <td>JAVA</td>
+                      <td>Medium</td>
+                      <td>Android APPs</td>
+                    </tr>
+                    <tr>
+                      <td>C#</td>
+                      <td>Basic</td>
+                      <td>Playstation Vita Apps</td>
+                    </tr>
+                    <tr>
+                      <td>C Language</td>
+                      <td>OK</td>
+                      <td>Anything</td>
+                    </tr>
+                    <tr>
+                      <td>Matlab</td>
+                      <td>Fluent</td>
+                      <td>Matlab</td>
+                    </tr>
+                  </table>
         </div>
     </body>
 </html>

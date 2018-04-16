@@ -6,9 +6,9 @@ body {  background-color: rgb(255, 255, 255);
     margin-right: auto;}
 
 .mainContent {padding: 0px 5px 10px 5px;}
-.navigation {background-color: rgb(9, 9, 39);  color: #FFFFFF;}
-.navigation a:link {  color: #ffffff;}
-.navigation a:visited {  color: #da5e38;}
+.navigation {background-color: rgb(9, 9, 39);  color: rgb(58, 58, 58);}
+.navigation a:link {  color: #000000;}
+.navigation a:visited {  color: #e64616;}
 
 .navigation li {display: table-cell;
                 text-align: center;
@@ -16,7 +16,7 @@ body {  background-color: rgb(255, 255, 255);
                 float: left;  
                 width: 25%;}
 .navigation li:hover {background-color: #01010c;}
-.navigation a:link {color: #ffffff;text-decoration: none;}
+.navigation a:link {color: #000000;text-decoration: none;}
 
 .centre{
     display: block;
