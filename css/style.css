@@ -6,25 +6,25 @@ body {  background-color: rgb(255, 255, 255);
     margin-right: auto;}
 
 .mainContent {padding: 0px 5px 10px 5px;}
-.navigation {background-color: #000000;  color: rgb(58, 58, 58);}
-.navigation a:link {  color: #ffffff;}
-.navigation a:visited {  color: #ffffff;}
+.navigation {background-color: #000000;  color: rgb(71, 71, 71);
+             padding: 0px 0px 0px 0px; width: 100%;  display: table;}
+.navigation a:link {  color: #080808;}
+.navigation a:visited {  color: #fffdfd;}
 
 .navigation li { 
     float: left;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     border-right: 1px solid #bbb;
     text-decoration: none;}
 
-.navigation li:hover {background-color: #111;}
+.navigation li:hover {background-color: rgb(211, 199, 199);}
 .navigation a:link {color: #000000;text-decoration: none;}
 
 .centre{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 30%;
 }
