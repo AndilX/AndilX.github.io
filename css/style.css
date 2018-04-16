@@ -1,21 +1,25 @@
 html { background-color: #000000;}
 
 body {  background-color: rgb(255, 255, 255);
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;}
 
 .mainContent {padding: 0px 5px 10px 5px;}
-.navigation {background-color: rgb(9, 9, 39);  color: rgb(58, 58, 58);}
-.navigation a:link {  color: #000000;}
-.navigation a:visited {  color: #e64616;}
+.navigation {background-color: #000000;  color: rgb(58, 58, 58);}
+.navigation a:link {  color: #ffffff;}
+.navigation a:visited {  color: #ffffff;}
 
-.navigation li {display: table-cell;
-                text-align: center;
-                vertical-align: middle;
-                float: left;  
-                width: 25%;}
-.navigation li:hover {background-color: #01010c;}
+.navigation li { 
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    border-right: 1px solid #bbb;
+    text-decoration: none;}
+
+.navigation li:hover {background-color: #111;}
 .navigation a:link {color: #000000;text-decoration: none;}
 
 .centre{
