@@ -1,12 +1,12 @@
-html { background-color: #aab3e9;}
+html { background-color: #fcfcfc;}
 
-body {  background-color: rgb(114, 240, 198);
-    width: 80%;
+body {  background-color: rgb(22, 59, 163);
+    width: 60%;
     margin-left: auto;
     margin-right: auto;}
 
 .mainContent {padding: 0px 5px 10px 5px;}
-.navigation {background-color: rgb(54, 54, 189);  color: #FFFFFF;}
+.navigation {background-color: rgb(9, 9, 39);  color: #FFFFFF;}
 .navigation a:link {  color: #ffffff;}
 .navigation a:visited {  color: #da5e38;}
 
@@ -14,6 +14,6 @@ body {  background-color: rgb(114, 240, 198);
                 text-align: center;
                 vertical-align: middle;
                 float: left;  
-                width: 25%;}
+                width: 30%;}
 .navigation li:hover {background-color: #3333ff;}
 .navigation a:link {color: #ffffff;text-decoration: none;}
