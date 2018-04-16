@@ -1,0 +1,12 @@
+html { background-color: #5a6cd4;}
+
+body {  background-color: rgb(46, 201, 136);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;}
+
+.mainContent {padding: 0px 5px 10px 5px;}
+.navigation {background-color: #00004d;  color: #FFFFFF;}
+.navigation a:link {  color: #ffffff;}
+.navigation a:visited {  color: #ffff00;}
+    
