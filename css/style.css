@@ -1,12 +1,19 @@
-html { background-color: #5a6cd4;}
+html { background-color: #707594;}
 
-body {  background-color: rgb(46, 201, 136);
+body {  background-color: rgb(69, 78, 75);
     width: 80%;
     margin-left: auto;
     margin-right: auto;}
 
 .mainContent {padding: 0px 5px 10px 5px;}
-.navigation {background-color: #00004d;  color: #FFFFFF;}
+.navigation {background-color: rgb(15, 15, 20);  color: #FFFFFF;}
 .navigation a:link {  color: #ffffff;}
 .navigation a:visited {  color: #ffff00;}
-    
+
+.navigation li {display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                float: left;  
+                width: 25%;}
+.navigation li:hover {background-color: #3333ff;}
+.navigation a:link {color: #ffffff;text-decoration: none;}
