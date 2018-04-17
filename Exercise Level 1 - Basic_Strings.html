@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+        <head>
+                <style>
+                .button {
+                    background-color: #555555;
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                }
+                </style>
+        </head>
+
+    <body>
+        <p>Exercise Level 1 - Basic : Strings </p>
+
+        <p>Change this sentence: "He said My name is Elliott" to uppercase </p>
+
+        <button class="button" onclick="changeStringFunction()">Change to UpperCase</button>
+        <p id="button1"></p>
+
+        <button class="button" onclick="concatenateFunction()"> Concatenation </button>
+        <p id="button2"></p>
+
+        <script>
+
+            //------Strings 1
+
+            function changeStringFunction() {
+            var sentence = "He said My name is Elliott";
+            var changed = sentence.toUpperCase();
+            document.getElementById("button1").innerHTML = changed;
+            console.log(changed);
+            }
+
+            //------Strings 1
+
+
+
+        </script>
+
+        <p>End Exercise Level 1 - Basic.</p>
+    </body>    
+</html>

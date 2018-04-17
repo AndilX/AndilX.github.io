@@ -1,16 +1,34 @@
 <!DOCTYPE HTML>
 <html>
+
+        <head>
+                <style>
+                .button {
+                    background-color: #555555;
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                }
+                </style>
+        </head>
+
     <body>
         <p>Exercise Level 1 - Basic : Events</p>
 
-        <button onclick="callFunction()"> Increase Age </button>
+        <button class="button" onclick="callFunction()"> Increase Age </button>
         <p id="button1"></p>
 
         <form>
             Name: <input type="text" id="fname" size="20" name="fname"><br>
             Age: <input type="text" id="age" size="20" name="age"><br>
             Occupation: <input type="text" id="job" size="20" name="job"><br><br>
-        <input type="button" value="Submit" onclick="updateFunction()"> 
+        <input type="button" class="button" value="Submit" onclick="updateFunction()"> 
         </form>
 
         <script>

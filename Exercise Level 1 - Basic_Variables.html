@@ -1,11 +1,28 @@
 <!DOCTYPE HTML>
 <html>
+    <head>
+            <style>
+            .button {
+                background-color: #555555;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            </style>
+    </head>
+
     <body>
         <p>Exercise Level 1 - Basic : Variables </p>
-        <button onclick="changeDataFunction()"> Change Data </button>
+        <button class="button" onclick="changeDataFunction()"> Change Data </button>
         <p id="button1"></p>
 
-            <script>
+        <script>
             var variableExample = 25;
             var personObject = {name:"Name", age:0 , occupation: "Job"};
 
@@ -56,7 +73,7 @@
             console.log("Console log result", personObject);
             document.write("Person object data:  Name is ", personObject.name, '<br/>',"Age is ",personObject.age,'<br/>', "Occupation is ",personObject.occupation)
 
-            </script>
+        </script>
             
         <p>End Exercise Level 1 - Basic</p>
     </body>    
