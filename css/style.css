@@ -28,3 +28,7 @@ body {  background-color: rgb(255, 255, 255);
     margin-right: auto;
     width: 30%;
 }
+.fa-facebook {
+    background: rgb(0, 0, 0);
+    color: white;
+  }
