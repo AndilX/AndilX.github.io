@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <p>Exercise Level 1 - Basic : Variables </p>
+        <button onclick="changeDataFunction()"> Change Data </button>
+        <p id="button1"></p>
+
+            <script>
+            var variableExample = 25;
+            var personObject = {name:"Name", age:0 , occupation: "Job"};
+
+            alert('Hello, world!');
+
+            //------Variables 1
+
+            alert("The variable value is " + variableExample);
+            console.log("Console log result", variableExample);
+            document.write("Variable = ", variableExample,'<br />');
+
+            //------Variables 2
+            function maker(name,age,occupation){
+                var it = {};
+                it.name = name;
+                it.age = age;
+                it.occupation = occupation;
+                return it;
+            }
+            var personObject = maker("Name",0,"Job")
+
+            function changeDataFunction(){
+                var inputValue1 = prompt("Enter new name", "0");
+                            if (inputValue1 == null || inputValue1 == "") {
+                                txt0 = "User cancelled the prompt.";
+                            } else {
+                                txt1 = inputValue1; 
+                            }
+                var inputValue2 = Number(prompt("Enter new age", "0"));
+                            if (inputValue2 == null || inputValue2 == "") {
+                                txt0 = "User cancelled the prompt.";
+                            } else {
+                                txt2 = inputValue2; 
+                            }
+                var inputValue3 = prompt("Enter occupation", "0");
+                            if (inputValue3 == null || inputValue3 == "") {
+                                txt0 = "User cancelled the prompt.";
+                            } else {
+                                txt3 = inputValue3;
+                            }
+                            var personObject = maker(txt1,txt2,txt3)
+            
+            console.log("Console log data changed", personObject);
+            document.write("Person object changed data:  Name is ", personObject.name, '<br/>',"Age is ",personObject.age,'<br/>', "Occupation is ",personObject.occupation)
+            //document.getElementById("button1").innerHTML = "Person object data:  Name is ", personObject.name, '<br/>',"Age is ",personObject.age,'<br/>', "Occupation is ",personObject.occupation;
+            }  
+
+            console.log("Console log result", personObject);
+            document.write("Person object data:  Name is ", personObject.name, '<br/>',"Age is ",personObject.age,'<br/>', "Occupation is ",personObject.occupation)
+
+            </script>
+            
+        <p>End Exercise Level 1 - Basic</p>
+    </body>    
+</html>

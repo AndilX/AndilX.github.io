@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <p>Exercise 1 - Types & Operators </p>
+            <script>
+                var example = 5
+                var operatorExample = 5 + 5
+                var exampleString = "Hello World!"
+                var exampleString2 = "Hello"+"World"+"?!"
+                var x = 0
+
+                //console log outputs
+                console.log("Console log result", example)
+                console.log("Operation result is", operatorExample)
+                console.log("String result:", exampleString)
+                console.log("String operation result:", exampleString2)
+
+                console.log(x = x + 1)
+                console.log(x+= 1)
+                console.log(x++)
+                console.log(++x)
+                console.log(x = x + 1)
+
+                console.log(5 > 3)
+                console.log(3 != 3)
+                console.log(3 <= 2 && 5 >2)
+                console.log(!5>3)
+
+                console.log(5 + "5")
+                console.log(5 + true)
+                console.log(5 * "5")
+                console.log(1 == true)
+                console.log(1 === true)
+
+                document.write("Variable = ", example,'<br />')
+                document.write("Operation result is ",operatorExample,'<br/>')
+                document.write("String result: ", exampleString,'<br/>')
+                document.write("String operation result: ", exampleString2,'<br/>')
+                document.write('<br/>','\n') //new line
+
+                document.write("Arithmetic operators, where x = ", x ,'<br/>')
+                document.write("x = x + 1 = ", x = x + 1 ,'<br/>')
+                document.write("x+= 1 = ", x+= 1 ,'<br/>')
+                document.write("x++ is ", x++ ,'<br/>')
+                document.write("++x is ", ++x ,'<br/>')
+                document.write("x = x + 1 = ", x = x + 1 ,'<br/>')
+                document.write('<br/>','\n') //new line
+
+                document.write("Relational operators:",'<br/>')
+                document.write("5 > 3 is ", 5 > 3 ,'<br/>')
+                document.write("3 != 3 is ", 3 != 3 ,'<br/>')
+                document.write("3 <= 2 && 5 >2 is ", 3 <= 2 && 5 >2 ,'<br/>')
+                document.write("!5>3 is ", !5>3 ,'<br/>')
+                document.write('<br/>','\n') //new line
+
+                document.write("Mismatched types:",'<br/>')
+                document.write("5 + five ", 5 + "5" ,'<br/>')
+                document.write("5 + true is ", 5 + true ,'<br/>')
+                document.write("5 * five ", 5 * "5" ,'<br/>')
+                document.write("1 == true is ", 1 == true ,'<br/>')
+                document.write("1 === true is ", 1 === true ,'<br/>')
+
+                var testParse = parseInt(5 + "5")
+                console.log(testParse)
+
+            </script>
+        <p>End Exercise 1.</p>
+    </body>    
+</html>

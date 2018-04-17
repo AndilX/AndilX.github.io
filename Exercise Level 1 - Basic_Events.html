@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <p>Exercise Level 1 - Basic : Events</p>
+
+        <button onclick="callFunction()"> Increase Age </button>
+        <p id="button1"></p>
+
+        <form>
+            Name: <input type="text" id="fname" size="20" name="fname"><br>
+            Age: <input type="text" id="age" size="20" name="age"><br>
+            Occupation: <input type="text" id="job" size="20" name="job"><br><br>
+        <input type="button" value="Submit" onclick="updateFunction()"> 
+        </form>
+
+        <script>
+
+             //------Events 1, Increase age by button
+            var personObject = {name:"You", age:1 , occupation: "Dev"};
+
+               function maker(name,age,occupation){
+                var it = {};
+                it.name = name;
+                it.age = age;
+                it.occupation = occupation;
+                return it;
+                }
+
+                function callFunction(){
+                    newAge= personObject.age + 1;
+                    console.log("Console log result", personObject);
+                    document.write("Person object data:  Name is ", personObject.name, '<br/>',"Age is ",newAge,'<br/>', "Occupation is ",personObject.occupation);
+                }
+
+
+                console.log("Console log result", personObject);
+                document.write("Person object data:  Name is ", personObject.name, '<br/>',"Age is ",personObject.age,'<br/>', "Occupation is ",personObject.occupation);
+                
+            //------Events 2, Person object and edits
+            
+            function updateFunction() {
+            var job = document.getElementById("job").value
+            var age = document.getElementById("age").value;
+            var fname = document.getElementById("fname").value;
+            //submitOK = "true";
+
+            // returns undefined...fix
+            submitOK = alert(job.value,age.value,fname.value); 
+
+                    if (fname.length > 10) {
+                        alert("The name may have no more than 10 characters");
+                        submitOK = "false";
+                    } 
+
+                    if (isNaN(age) || age < 1 || age > 100) {
+                        alert("The age must be a number between 1 and 100");
+                        submitOK = "false";
+                    }
+                    if (submitOK == "false") {
+                        return false;
+                    }
+            //alert(job,age,fname);
+            console.log("Console log result", job.value,age.value,fname.value);
+            }
+
+        </script>
+
+        <p>End Exercise Level 1 - Basic</p>
+    </body>    
+</html>
