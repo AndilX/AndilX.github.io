@@ -1,4 +1,4 @@
-html { background-color: #000000;}*,*:before,*:after{box-sizing:inherit} /* adjustments for mobile browsers*/
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit;} /* sizing for mobile device*/
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
 
