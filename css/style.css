@@ -3,6 +3,7 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
 
 body {font-family: Georgia, 'Times New Roman', Times, serif;}
+/*Palatino Linotype", "Book Antiqua", Palatino, serif*/
 
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
@@ -137,13 +138,13 @@ body {font-family: Georgia, 'Times New Roman', Times, serif;}
     width: 100%;
 }
 
-.td, th {
+td, th {
     border: 1px solid #ddddddb7;
     text-align: center;
     padding: 8px;
 }
 
-.tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #ddddddb9;
 }
 
