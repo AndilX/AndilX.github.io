@@ -25,44 +25,8 @@
         <p id="button1"></p>
         <p id="button2"></p>
             
-        <script>
-        //------Function 1 - square of a user input
-            function squareFunction(){
-                var inputValue = prompt("Please enter a value", "0");
-                            if (inputValue == null || inputValue == "") {
-                                txt = "User cancelled the prompt.";
-                            } else {
-                                txt = "Input value entered is " + inputValue ,'<\br>' 
-                                txt2 = "Output value is the square of " + inputValue +" which is = " + inputValue*inputValue;
-                            }
-            document.getElementById("button1").innerHTML = txt2;
-            }   
-
-        //------Function 2 - sum of 3 number by user input
-        function sumFunction(){
-                var inputValue1 = Number(prompt("Enter the first value", "0"));
-                            if (inputValue1 == null || inputValue1 == "") {
-                                txt0 = "User cancelled the prompt.";
-                            } else {
-                                txt1 = "Input value entered is " + inputValue1 ,'<\br>'; 
-                            }
-                var inputValue2 = Number(prompt("Enter a second value", "0"));
-                            if (inputValue2 == null || inputValue2 == "") {
-                                txt0 = "User cancelled the prompt.";
-                            } else {
-                                txt2 = "Input value entered is " + inputValue2 ,'<\br>'; 
-                            }
-                var inputValue3 = Number(prompt("Enter a third value", "0"));
-                            if (inputValue3 == null || inputValue3 == "") {
-                                txt0 = "User cancelled the prompt.";
-                            } else {
-                                txt3 = "Input value enter is " + inputValue3 ,'<\br>';
-                            }
-                            alert(inputValue1+inputValue2+inputValue3);
-            document.getElementById("button2").innerHTML = "Output value is the sum ="+ (inputValue1+inputValue2+inputValue3);
-            }  
-
-        </script>
+        <script src = "Exercise Level 1 - Basic_ Functions.js"></script>
+        
         <p>End Exercise Level 1 - Basic</p>
     </body>    
 </html>
