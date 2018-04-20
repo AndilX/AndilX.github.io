@@ -132,6 +132,21 @@ body {font-family: Georgia, 'Times New Roman', Times, serif;}
 
 /**/
 
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.td, th {
+    border: 1px solid #ddddddb7;
+    text-align: center;
+    padding: 8px;
+}
+
+.tr:nth-child(even) {
+    background-color: #ddddddb9;
+}
+
 .navigation {background-color: #000000;  color: rgb(71, 71, 71);
              padding: 0px 0px 0px 0px; width: 100%;  display: table;}
 .navigation a:link {  color: #080808;}
